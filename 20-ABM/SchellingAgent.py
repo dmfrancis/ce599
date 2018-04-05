@@ -32,12 +32,14 @@ class SchellingAgent():
         Calculates the similarity ratio for the agent.  Defined as:
             similarity = neighbors of same type / total (non-empty) neighbors
         '''
-        print('Implement calculate_similarity()')
+		same_type       
+	   print('Implement calculate_similarity()')
 
     def is_happy(self): 
         '''
         The agent is happy if at least 30% of its neighbors are of the same type. 
         '''
+		if self.calculate_similarity>=0.30
         print('Implement is_happy()')
         
     def move(self):
